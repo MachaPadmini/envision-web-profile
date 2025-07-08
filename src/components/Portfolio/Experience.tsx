@@ -6,48 +6,33 @@ const Experience = () => {
   const experiences = [
     {
       company: "Cognizant Technology Solutions",
-      position: "Senior Software Engineer",
-      duration: "2022 - Present",
-      location: "Remote",
+      position: "Process Executive – Data",
+      duration: "Nov 2021 - Jul 2023",
+      location: "Hyderabad, India",
       type: "Full-time",
       achievements: [
-        "Led development of cloud-native microservices architecture serving 100K+ users",
-        "Reduced application response time by 45% through optimization and caching strategies",
-        "Mentored 5 junior developers and established coding standards across teams",
-        "Implemented CI/CD pipelines that reduced deployment time from 2 hours to 15 minutes",
-        "Architected security-first solutions with zero security incidents in production"
+        "Improved data-driven decision-making by developing dashboards and reports for enterprise clients",
+        "Enhanced data security by identifying and resolving system vulnerabilities",
+        "Led data integrity reviews aligned with performance and compliance KPIs in regulated sectors",
+        "Collaborated with cross-functional teams to troubleshoot data and software delivery issues",
+        "Streamlined data processing workflows resulting in improved efficiency"
       ],
-      technologies: ["Java", "Spring Boot", "AWS", "Docker", "Kubernetes", "PostgreSQL", "Redis"]
+      technologies: ["Python", "SQL", "Data Analytics", "Dashboard Development", "Security Auditing"]
     },
     {
       company: "Beyond Soft Solutions",
-      position: "Full-Stack Developer",
-      duration: "2020 - 2022",
-      location: "Hybrid",
+      position: "Junior Software Engineer",
+      duration: "Nov 2019 - Sep 2021",
+      location: "Hyderabad, India",
       type: "Full-time",
       achievements: [
-        "Developed and maintained 8+ client applications using React and Node.js",
-        "Collaborated with cross-functional teams to deliver projects 20% ahead of schedule",
-        "Integrated third-party APIs and payment gateways for e-commerce platforms",
-        "Optimized database queries resulting in 60% improvement in application performance",
-        "Participated in code reviews and maintained 95%+ test coverage across projects"
+        "Developed backend and data integration pipelines using Python and Java",
+        "Collaborated with engineers to improve system performance and optimize backend processes",
+        "Gained hands-on experience with debugging, testing, and secure deployment processes",
+        "Applied design patterns and algorithms to deliver efficient features with long-term maintainability",
+        "Contributed to reducing system latency through performance optimization techniques"
       ],
-      technologies: ["React", "Node.js", "Express", "MongoDB", "MySQL", "JavaScript", "HTML/CSS"]
-    },
-    {
-      company: "Tech Startup (Freelance)",
-      position: "Software Development Consultant",
-      duration: "2019 - 2020",
-      location: "Remote",
-      type: "Contract",
-      achievements: [
-        "Built MVP for fintech startup that secured $500K in seed funding",
-        "Designed scalable database schema for user management and transaction processing",
-        "Implemented real-time notifications and analytics dashboard",
-        "Established development workflow and deployment processes",
-        "Delivered project within tight deadline while maintaining high code quality"
-      ],
-      technologies: ["Python", "Django", "React", "PostgreSQL", "AWS", "Stripe API"]
+      technologies: ["Python", "Java", "Backend Development", "Data Integration", "Performance Optimization"]
     }
   ];
 

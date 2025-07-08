@@ -4,10 +4,11 @@ import { Code2, Cloud, Brain, Shield } from 'lucide-react';
 
 const About = () => {
   const skills = [
-    'JavaScript/TypeScript', 'React', 'Node.js', 'Python', 'Java',
-    'AWS/Azure', 'Docker', 'Kubernetes', 'MongoDB', 'PostgreSQL',
-    'Machine Learning', 'TensorFlow', 'System Design', 'Security',
-    'Microservices', 'CI/CD', 'Git', 'Agile/Scrum'
+    'Python', 'Java', 'JavaScript', 'TypeScript', 'C', 'C++', 'SQL',
+    'Vue.js', 'React', 'Node.js', 'NestJS', 'GraphQL', 'Pygame',
+    'AWS (ECS, CDK)', 'GCP', 'PostgreSQL', 'MongoDB', 'MySQL',
+    'Git', 'VS Code', 'Linux', 'PowerShell', 'Full-Stack Development',
+    'SaaS Security', 'Distributed Systems', 'Performance Optimization'
   ];
 
   const strengths = [
@@ -41,8 +42,8 @@ const About = () => {
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6">About Me</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              A passionate Software Engineer with expertise in full-stack development, cloud computing, and AI. 
-              I thrive on solving complex problems and building applications that make a real-world impact.
+              Entry-level Full-Stack Software Engineer with 4+ years of experience building secure, scalable applications 
+              and data solutions. Strong foundation in distributed systems and passionate about cybersecurity and system design.
             </p>
           </div>
 
@@ -53,17 +54,18 @@ const About = () => {
               <h3 className="text-2xl font-semibold text-primary mb-4">Background & Education</h3>
               <div className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
-                  With a strong foundation in computer science and years of hands-on experience, I've developed 
-                  a comprehensive understanding of software development lifecycle, from conception to deployment.
+                  Currently pursuing M.Sc. in Computer Science at University of New Haven (GPA: 3.53, Expected: May 2025), 
+                  with coursework in Algorithms, Big Data, AI, Database Management, Cloud Computing, and Web Development.
                 </p>
                 <p>
-                  My journey in technology has taken me through various domains including enterprise applications, 
-                  cloud infrastructure, and AI-powered solutions. I believe in writing clean, maintainable code 
-                  and following best practices for security and scalability.
+                  My professional journey includes 4+ years of experience in full-stack development and data solutions, 
+                  working with enterprise clients at Cognizant and developing backend systems at Beyond Soft Solutions. 
+                  I specialize in building secure, scalable applications with strong focus on performance optimization.
                 </p>
                 <p>
-                  What sets me apart is my adaptability to new technologies, strong problem-solving skills, 
-                  and my ability to bridge the gap between technical complexity and business requirements.
+                  What sets me apart is my adaptability to new technologies, security awareness, and ability to deliver 
+                  efficient solutions with long-term maintainability. I thrive in fast-paced environments and excel at 
+                  bridging technical complexity with business requirements.
                 </p>
               </div>
             </div>

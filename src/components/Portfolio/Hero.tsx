@@ -24,13 +24,13 @@ const Hero = () => {
           {/* Name and Title */}
           <div className="fade-in">
             <h1 className="text-5xl md:text-7xl font-bold text-primary mb-4 leading-tight">
-              <span className="block">Software</span>
-              <span className="block text-accent">Engineer</span>
+              <span className="block">Padmini</span>
+              <span className="block text-accent">Macha</span>
             </h1>
             
             <p className="text-xl md:text-2xl text-muted-foreground mb-8 font-light">
-              Full-Stack Developer passionate about solving complex problems and building 
-              <span className="text-accent font-medium"> scalable, secure applications</span>
+              Entry-level Full-Stack Software Engineer with 4+ years of experience building 
+              <span className="text-accent font-medium"> secure, scalable applications and data solutions</span>
             </p>
           </div>
 
@@ -72,7 +72,7 @@ const Hero = () => {
               <Linkedin size={24} />
             </a>
             <a 
-              href="mailto:contact@example.com"
+              href="mailto:pdmnmacha98@gmail.com"
               className="p-3 rounded-full bg-card shadow-card hover:shadow-card-hover hover:bg-accent hover:text-accent-foreground transition-smooth hover-lift"
             >
               <Mail size={24} />
