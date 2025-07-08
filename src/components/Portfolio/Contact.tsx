@@ -43,19 +43,19 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email",
-      value: "pdmnmacha98@gmail.com",
-      href: "mailto:pdmnmacha98@gmail.com"
+      value: "contact@example.com",
+      href: "mailto:contact@example.com"
     },
     {
       icon: Phone,
       title: "Phone",
-      value: "203-627-2017",
-      href: "tel:2036272017"
+      value: "+1 (555) 123-4567",
+      href: "tel:+15551234567"
     },
     {
       icon: MapPin,
       title: "Location",
-      value: "West Haven, CT",
+      value: "New York, NY",
       href: null
     }
   ];
@@ -64,14 +64,20 @@ const Contact = () => {
     {
       icon: Github,
       name: "GitHub",
-      url: "https://github.com/padmini-macha",
-      username: "@padmini-macha"
+      url: "https://github.com",
+      username: "@yourusername"
     },
     {
       icon: Linkedin,
-      name: "LinkedIn", 
-      url: "https://linkedin.com/in/padmini-macha",
-      username: "/in/padmini-macha"
+      name: "LinkedIn",
+      url: "https://linkedin.com/in/yourprofile",
+      username: "/in/yourprofile"
+    },
+    {
+      icon: Twitter,
+      name: "Twitter",
+      url: "https://twitter.com/yourusername",
+      username: "@yourusername"
     }
   ];
 
