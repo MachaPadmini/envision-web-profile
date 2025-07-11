@@ -5,64 +5,44 @@ import { Award, ExternalLink, Calendar } from 'lucide-react';
 const Certifications = () => {
   const certifications = [
     {
-      name: "Microsoft Azure AI Fundamentals",
+      name: "Azure AI Fundamentals",
       issuer: "Microsoft",
       date: "2023",
-      credentialId: "AI-900",
-      description: "Fundamental concepts of machine learning and artificial intelligence services on Azure",
-      skills: ["Azure Cognitive Services", "Machine Learning", "AI Ethics", "Computer Vision"],
+      credentialId: "AI-900-2023",
+      description: "Gained foundational knowledge of AI concepts and Azure-based machine learning solutions.",
+      skills: ["Azure AI", "Machine Learning", "Cognitive Services", "AI Fundamentals"],
       verifyUrl: "https://learn.microsoft.com/en-us/certifications/azure-ai-fundamentals/",
-      logo: "🏅"
-    },
-    {
-      name: "AWS Certified Solutions Architect",
-      issuer: "Amazon Web Services",
-      date: "2023",
-      credentialId: "SAA-C03",
-      description: "Design distributed systems and applications on the AWS platform",
-      skills: ["AWS Architecture", "Cloud Security", "Cost Optimization", "High Availability"],
-      verifyUrl: "https://aws.amazon.com/certification/certified-solutions-architect-associate/",
-      logo: "☁️"
-    },
-    {
-      name: "Database Management Systems",
-      issuer: "Oracle University",
-      date: "2022",
-      credentialId: "OCA-DB",
-      description: "Comprehensive understanding of database design, implementation, and optimization",
-      skills: ["SQL", "Database Design", "Performance Tuning", "Data Modeling"],
-      verifyUrl: "https://education.oracle.com/oracle-certification-path/",
-      logo: "🗄️"
-    },
-    {
-      name: "Google Cloud Professional Developer",
-      issuer: "Google Cloud",
-      date: "2022",
-      credentialId: "PCD",
-      description: "Building scalable and reliable applications using Google Cloud services",
-      skills: ["GCP Services", "Kubernetes", "DevOps", "Microservices"],
-      verifyUrl: "https://cloud.google.com/certification/cloud-developer",
-      logo: "🌐"
-    },
-    {
-      name: "Certified Kubernetes Administrator",
-      issuer: "Cloud Native Computing Foundation",
-      date: "2022",
-      credentialId: "CKA",
-      description: "Skills in installation, configuration, and management of Kubernetes clusters",
-      skills: ["Kubernetes", "Container Orchestration", "DevOps", "Cluster Management"],
-      verifyUrl: "https://www.cncf.io/certification/cka/",
-      logo: "⚙️"
-    },
-    {
-      name: "TensorFlow Developer Certificate",
-      issuer: "Google/TensorFlow",
-      date: "2021",
-      credentialId: "TF-DEV",
-      description: "Practical machine learning skills using TensorFlow framework",
-      skills: ["TensorFlow", "Neural Networks", "Deep Learning", "Model Deployment"],
-      verifyUrl: "https://www.tensorflow.org/certificate",
       logo: "🧠"
+    },
+    {
+      name: "Mastering the Fundamentals – AI Track",
+      issuer: "Educational Platform",
+      date: "2023",
+      credentialId: "AI-FUND-2023",
+      description: "Completed core AI and CS concepts including algorithms and data structures.",
+      skills: ["AI Fundamentals", "Algorithms", "Data Structures", "Computer Science"],
+      verifyUrl: "#",
+      logo: "🎓"
+    },
+    {
+      name: "DBMS Course",
+      issuer: "Online Platform",
+      date: "2022",
+      credentialId: "DBMS-2022",
+      description: "Learned relational database design, SQL, and data optimization techniques.",
+      skills: ["Database Design", "SQL", "Data Optimization", "Relational Databases"],
+      verifyUrl: "#",
+      logo: "💾"
+    },
+    {
+      name: "Freedom with AI – Applied AI Practices",
+      issuer: "AI Learning Platform",
+      date: "2023",
+      credentialId: "AI-PRAC-2023",
+      description: "Applied real-world AI use cases with hands-on model building and deployment.",
+      skills: ["Applied AI", "Model Building", "AI Deployment", "Machine Learning"],
+      verifyUrl: "#",
+      logo: "🤖"
     }
   ];
 
@@ -144,15 +124,15 @@ const Certifications = () => {
           {/* Stats */}
           <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-6">
             <div className="text-center">
-              <div className="text-3xl font-bold text-accent mb-2">6+</div>
+              <div className="text-3xl font-bold text-accent mb-2">4</div>
               <div className="text-sm text-muted-foreground">Certifications</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-accent mb-2">4</div>
+              <div className="text-3xl font-bold text-accent mb-2">2</div>
               <div className="text-sm text-muted-foreground">Cloud Platforms</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-accent mb-2">24+</div>
+              <div className="text-3xl font-bold text-accent mb-2">16+</div>
               <div className="text-sm text-muted-foreground">Skills Validated</div>
             </div>
             <div className="text-center">

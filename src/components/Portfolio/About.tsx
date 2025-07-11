@@ -3,11 +3,23 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Code2, Cloud, Brain, Shield } from 'lucide-react';
 
 const About = () => {
-  const skills = [
-    'JavaScript/TypeScript', 'React', 'Node.js', 'Python', 'Java',
-    'AWS/Azure', 'Docker', 'Kubernetes', 'MongoDB', 'PostgreSQL',
-    'Machine Learning', 'TensorFlow', 'System Design', 'Security',
-    'Microservices', 'CI/CD', 'Git', 'Agile/Scrum'
+  const skillCategories = [
+    {
+      category: "Languages and Web",
+      skills: ["C", "C++", "Java", "Python", "R", "HTML", "CSS", "Vue.js", "JavaScript", "Node.js"]
+    },
+    {
+      category: "Frameworks and Libraries",
+      skills: ["Pandas", "NumPy", "Seaborn", "Pygame"]
+    },
+    {
+      category: "Databases and Tools",
+      skills: ["SQL", "MySQL", "MongoDB", "Git", "VS Code", "PyCharm", "Eclipse", "Colab", "RStudio"]
+    },
+    {
+      category: "Cloud Systems",
+      skills: ["AWS", "Google Cloud Platform", "Windows", "Linux", "PowerShell"]
+    }
   ];
 
   const strengths = [
@@ -71,18 +83,25 @@ const About = () => {
             {/* Technical Skills */}
             <div>
               <h3 className="text-2xl font-semibold text-primary mb-6">Technical Skills</h3>
-              <div className="flex flex-wrap gap-2">
-                {skills.map((skill, index) => (
-                  <Badge 
-                    key={skill} 
-                    variant="secondary" 
-                    className="px-3 py-1 bg-card hover:bg-accent hover:text-accent-foreground transition-smooth cursor-default"
-                    style={{
-                      animationDelay: `${index * 0.1}s`
-                    }}
-                  >
-                    {skill}
-                  </Badge>
+              <div className="space-y-4">
+                {skillCategories.map((category) => (
+                  <div key={category.category}>
+                    <h4 className="font-semibold text-accent mb-2">{category.category}:</h4>
+                    <div className="flex flex-wrap gap-2">
+                      {category.skills.map((skill, index) => (
+                        <Badge 
+                          key={skill} 
+                          variant="secondary" 
+                          className="px-3 py-1 bg-card hover:bg-accent hover:text-accent-foreground transition-smooth cursor-default"
+                          style={{
+                            animationDelay: `${index * 0.1}s`
+                          }}
+                        >
+                          {skill}
+                        </Badge>
+                      ))}
+                    </div>
+                  </div>
                 ))}
               </div>
             </div>

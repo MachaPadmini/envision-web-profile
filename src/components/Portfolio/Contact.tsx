@@ -5,7 +5,7 @@ import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Label } from '@/components/ui/label';
 import { useToast } from '@/hooks/use-toast';
-import { Mail, Phone, MapPin, Send, Github, Linkedin, Twitter } from 'lucide-react';
+import { Mail, Phone, MapPin, Send, Github, Linkedin } from 'lucide-react';
 
 const Contact = () => {
   const { toast } = useToast();
@@ -43,19 +43,19 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email",
-      value: "contact@example.com",
-      href: "mailto:contact@example.com"
+      value: "pdmnmacha98@gmail.com",
+      href: "mailto:pdmnmacha98@gmail.com"
     },
     {
       icon: Phone,
       title: "Phone",
-      value: "+1 (555) 123-4567",
-      href: "tel:+15551234567"
+      value: "203-627-2017",
+      href: "tel:2036272017"
     },
     {
       icon: MapPin,
       title: "Location",
-      value: "New York, NY",
+      value: "West Haven, CT",
       href: null
     }
   ];
@@ -64,20 +64,14 @@ const Contact = () => {
     {
       icon: Github,
       name: "GitHub",
-      url: "https://github.com",
-      username: "@yourusername"
+      url: "https://github.com/MachaPadmini",
+      username: "@MachaPadmini"
     },
     {
       icon: Linkedin,
       name: "LinkedIn",
-      url: "https://linkedin.com/in/yourprofile",
-      username: "/in/yourprofile"
-    },
-    {
-      icon: Twitter,
-      name: "Twitter",
-      url: "https://twitter.com/yourusername",
-      username: "@yourusername"
+      url: "https://www.linkedin.com/in/macha-padmini/",
+      username: "/in/macha-padmini/"
     }
   ];
 
