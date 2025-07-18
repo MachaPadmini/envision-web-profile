@@ -49,13 +49,13 @@ const Contact = () => {
     {
       icon: Phone,
       title: "Phone",
-      value: "203-627-2017",
+      value: "2036272017",
       href: "tel:2036272017"
     },
     {
       icon: MapPin,
       title: "Location",
-      value: "West Haven, CT",
+      value: "Connecticut, CT",
       href: null
     }
   ];
