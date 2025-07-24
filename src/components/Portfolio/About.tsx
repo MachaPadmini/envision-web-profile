@@ -53,8 +53,7 @@ const About = () => {
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6">About Me</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              A passionate Software Engineer with expertise in full-stack development, cloud computing, and AI. 
-              I thrive on solving complex problems and building applications that make a real-world impact.
+              I'm Padmini Macha, a Software Engineer with 4+ years of experience in full-stack and backend development using Java, Python, and TypeScript. I'm currently pursuing my M.Sc. in Computer Science at the University of New Haven, and I specialize in building scalable, cloud-based applications using AWS, GCP, and modern frameworks. I'm passionate about solving real-world problems with clean, efficient code and continuously exploring new technologies in AI and software engineering.
             </p>
           </div>
 
@@ -65,17 +64,13 @@ const About = () => {
               <h3 className="text-2xl font-semibold text-primary mb-4">Background & Education</h3>
               <div className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
-                  With a strong foundation in computer science and years of hands-on experience, I've developed 
-                  a comprehensive understanding of software development lifecycle, from conception to deployment.
+                  With a solid academic foundation in computer science and over four years of hands-on experience, I have developed a comprehensive understanding of the full software development lifecycle—from initial design to scalable deployment.
                 </p>
                 <p>
-                  My journey in technology has taken me through various domains including enterprise applications, 
-                  cloud infrastructure, and AI-powered solutions. I believe in writing clean, maintainable code 
-                  and following best practices for security and scalability.
+                  My experience spans across diverse domains including full-stack web development, distributed systems, cloud infrastructure (AWS, GCP), and AI-driven applications. I am committed to writing clean, maintainable, and secure code, while consistently following best practices to ensure performance and scalability.
                 </p>
                 <p>
-                  What sets me apart is my adaptability to new technologies, strong problem-solving skills, 
-                  and my ability to bridge the gap between technical complexity and business requirements.
+                  What sets me apart is my adaptability to emerging technologies, strong analytical thinking, and my ability to bridge technical complexity with practical business solutions—delivering impactful results in fast-paced, collaborative environments.
                 </p>
               </div>
             </div>

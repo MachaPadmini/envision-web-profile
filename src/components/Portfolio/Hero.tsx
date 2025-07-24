@@ -29,8 +29,8 @@ const Hero = () => {
             </h1>
             
             <p className="text-xl md:text-2xl text-muted-foreground mb-8 font-light">
-              Full-Stack Developer passionate about solving complex problems and building 
-              <span className="text-accent font-medium"> scalable, secure applications</span>
+              Full-Stack Software Engineer with a passion for solving complex problems and building 
+              <span className="text-accent font-medium"> scalable, secure, and cloud-native applications</span>
             </p>
           </div>
 
