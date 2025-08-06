@@ -2,7 +2,7 @@
 
 ## Project info
 
-**URL**: https://machapadmini-web-profile
+**URL**: https://lovable.dev/projects/1cd00cd7-f3a8-4bf5-995b-fa2675a8204a
 
 ## How can I edit this code?
 
